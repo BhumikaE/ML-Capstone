@@ -3,11 +3,11 @@ class parameters():
     prog_name = "generator"
 
     # set up your own path here
-    root_path = "your_project_path"
-    output_path = "path_to_store_outputs"
-    cache_dir = "path_for_other_cache"
+    root_path = "/workspace/ML-Capstone/"
+    output_path = "/workspace/ML-Capstone/outputs/generator/"
+    cache_dir = "/workspace/ML-Capstone/cache/generator/"
 
-    model_save_name = "bert-base"
+    model_save_name = "generator-bert-base"
 
     # train_file = root_path + "dataset/train.json"
     # valid_file = root_path + "dataset/dev.json"
@@ -64,7 +64,7 @@ class parameters():
 
     batch_size = 16
     batch_size_test = 16
-    epoch = 300
+    epoch = 10
     learning_rate = 2e-5
 
     report = 300
